@@ -1,4 +1,4 @@
-import { pool } from './database.js'
+import { pool } from './data/db/conection.js';
 
 async function test() {
   const res = await pool.query('SELECT * FROM users')

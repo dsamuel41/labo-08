@@ -1,4 +1,4 @@
-import { pool } from '../database.js'
+import { pool } from '../data/db/conection.js';
 
 export const displayHome = (req, res) => {
     res.send('Bienvenido a la API de usuarios 🧪')

@@ -1,4 +1,4 @@
-// routes/user.routes.js
+
 import { Router } from 'express'
 import {
   displayHome,
@@ -7,7 +7,7 @@ import {
   createUser,
   updateUser,
   deleteUser,
-} from '../controllers/user.controller.js'
+} from '../controller/controller.js'
 import verifyToken from '../middlewares/verifyToken.js'
 
 const router = Router()

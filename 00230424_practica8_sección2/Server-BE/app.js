@@ -6,7 +6,7 @@ import jwt from "jsonwebtoken"
 
 import userRoutes from "./routes/user.routes.js"
 import verifyToken from "./middlewares/verifyToken.js"
-import { pool } from "./database.js"
+import { pool } from "./data/db/conection.js"
 
 const app = express()
 const PORT = 5000
